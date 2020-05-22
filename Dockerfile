@@ -1,6 +1,6 @@
 # Download kubernetes binaries
 # @author: zhangnineday
-#FROM alpine:3.9
+FROM alpine:3.9
 MAINTAINER zhangxuyw@haodf.com
 #RUN apk --no-cache add wget
 
