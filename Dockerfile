@@ -6,7 +6,7 @@ MAINTAINER zhangxuyw@haodf.com
 
 #ENV K8S_VER=v1.17.3
 
-RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.18.0/bin/linux/amd64/kubectl && \
+RUN wget https://storage.googleapis.com/kubernetes-release/release/v1.18.0/bin/linux/amd64/kubectl && \
     chmod +x kubectl
 
 CMD [ "sleep", "360000000" ]
