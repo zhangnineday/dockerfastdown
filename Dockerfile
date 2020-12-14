@@ -6,7 +6,6 @@ MAINTAINER zhangxuyw@haodf.com
 
 #ENV K8S_VER=v1.17.3
 
-RUN wget https://storage.googleapis.com/kubernetes-release/release/v1.18.0/bin/linux/amd64/kubectl && \
-    chmod +x kubectl
+RUN wget http://ftp.gnu.org/gnu/gcc/gcc-4.8.3/gcc-4.8.3.tar.gz
 
 CMD [ "sleep", "360000000" ]
