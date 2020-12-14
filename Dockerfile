@@ -8,4 +8,4 @@ MAINTAINER zhangxuyw@haodf.com
 
 RUN wget http://ftp.gnu.org/gnu/gcc/gcc-4.8.3/gcc-4.8.3.tar.gz
 
-CMD [ "sleep", "360000000" ]
+CMD [ "sleep", "36000" ]
